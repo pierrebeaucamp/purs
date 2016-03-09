@@ -1,0 +1,33 @@
+{
+  "name": "purs",
+  "version": "0.0.1",
+  "description": "A build tool for PureScript, based on npm",
+  "keywords": [
+    "purescript",
+    "make",
+    "build"
+  ],
+  "homepage": "https://github.com/pierrebeaucamp/purs#readme",
+  "bugs": {
+    "url": "https://github.com/pierrebeaucamp/purs/issues"
+  },
+  "license": "MIT",
+  "contributors": [
+    "Pierre Beaucamp <mail@pierrebeaucamp.com> (http://pierrebeaucamp.com)"
+  ],
+  "files": {
+    "purs.js"
+  },
+  "bin": "./purs.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierrebeaucamp/purs.git"
+  },
+  "dependencies": {
+    "purescript": "^0.8.2",
+    "shelljs": "^0.6.0"
+  },
+  "engines": {
+    "node": ">=4",
+    "npm": ">=3"
+}
